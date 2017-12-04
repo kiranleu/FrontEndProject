@@ -40,6 +40,15 @@ h5 {
     font-family: 'Lato', 'serif';
     font-size: 14px;
 }
+
+video{
+ 
+    width: 500px;
+    margin: 20px;
+    padding: 15px;
+    padding-left:30px;
+   
+}
 /*Footer and its Icons*/
 footer {
     font-family: 'Lato', 'serif';
