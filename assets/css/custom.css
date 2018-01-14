@@ -59,7 +59,10 @@ footer {
          
 /*Sections*/
 #home {
+    background: lightcyan;
     height: 100vh;
+}
+
 }
 
 #about {
@@ -100,6 +103,12 @@ container.navbar-brand {
 
 #homeimg {
     padding-top: 100px;
+}
+
+#video2{
+    display: block;
+    margin: 0 auto;
+
 }
 
 
