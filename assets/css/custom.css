@@ -63,9 +63,8 @@ footer {
     height: 100vh;
 }
 
-}
-
 #about {
+    background:#aebbbe;
     height: 100vh;
 }
 
@@ -115,12 +114,16 @@ container.navbar-brand {
 /*styling About Section*/
 
 #paragraph {
-    padding-top: 200px;
+ 
+    padding-top: 45px;
+    padding-right: 120px;
     text-align: justify;
+    
+
 }
 
-#aboutimg {
-    padding-top: 100px;
+#video3 {
+  padding-top: 100px;
 }
 
 
