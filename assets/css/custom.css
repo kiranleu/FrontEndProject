@@ -7,6 +7,12 @@ html {
 
 /* Styles in all the pages*/
 
+@media (min-width: 768px) { 
+    h1{
+        font-size: 30px;
+    }
+}
+
 body {
     min-height: 100%;
     background-color: rgb(196, 209, 226);
@@ -51,6 +57,12 @@ video{
     padding-right: -10px;
    
 }
+
+#coloredphrase{
+    color: cadetblue;
+    font-size: 80px;
+}
+
 /*Footer and its Icons*/
 footer {
     font-family: 'Lato', 'serif';
@@ -62,29 +74,32 @@ footer {
 /*Sections*/
 #home {
     background-color: rgb(199, 220, 233);
-    height: 100vh;
+    height: 95vh;
 }
 
 #about {
-    background-image:url(http://www.weightlossforall.com/images/weight-training.jpg) ;
-    height: 100vh;
-  
+    background: #d3d3d3;
+    height: 95vh;
+
 }
 
 #services {
     background:  rgb(199, 220, 233);
-    height: 100vh;
-    padding: auto;
+    height: 95vh;
+   
+   
 }
 
 #testimonials {
     background: #d3d3d3;
-    height: 100vh;
+    height: 95vh;
 }
 
 #contact {
     background:  rgb(199, 220, 233);
-    height: 100vh;
+    height: 95vh;
+    padding-left: 50px;
+    padding-right: 10px;
 }
 
 
@@ -133,33 +148,52 @@ container.navbar-brand {
   padding-top: 100px;
 }
 
-.my-container {
-    position: relative;
-    background: rgb(174, 211, 230);
-    overflow: hidden;
-}
-.my-container:before {
+.background:before{
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
     display: block;
+    background-size: 100% 100%;
+    background-image: url('https://static.pexels.com/photos/685530/pexels-photo-685530.jpeg');
+    width: 150%;
+    height: 150%;
+    top:-20px;
+    left:-20px;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+    background-repeat:no-repeat;
+  }
+  
+  .content{
+    height: 400px;
+    width: 700px;
     position: absolute;
-
-    width: 100%;
-    height: 0%;
-    z-index: 1;
-    opacity: 0.6;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    color: rgba(255, 255, 255, 0.596);
+  -webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
+  }
+  
+  
 
 /*Styling Services Section*/
 
 #servicesimg {
     padding-top: 200px;
+}
+
+#servicesimg:hover {
+    background-color: green;
+
 }
 
 
@@ -168,6 +202,7 @@ container.navbar-brand {
 .row {
     padding-bottom: 100px;
     padding-top: 10px;
+    padding-right: 10px;
 }
 
 
