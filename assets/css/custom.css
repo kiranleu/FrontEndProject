@@ -6,13 +6,71 @@ html {
 }
 
 
+
+/* responsive text queries */
+@media screen and (max-width: 992px) {
+    p,.btn,input,div,span,h4,video {
+      font-size: 95%;
+    }
+    h1 {
+      font-size: 24px;  
+    }
+    h2 {
+      font-size: 22px;  
+    }
+    h3 {
+      font-size: 18px;  
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    p,.btn,input,div,span,h4 {
+      font-size: 90%;
+    }
+    h1 {
+      font-size: 30px;  
+    }
+    h2 {
+      font-size: 28px;  
+    }
+    h3 {
+      font-size: 16px;  
+    }
+    h4 {
+        font-size: 12px;
+    }
+
+    h5{
+        font-size: 8px;
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    p,.btn,input,div,span,h4 {
+      font-size: 80%;
+    }
+    h1 {
+      font-size: 12px;  
+    }
+    h2 {
+      font-size: 18px;  
+    }
+    h3 {
+      font-size: 12px;  
+    }
+    h4 {
+        font-size: 10px;
+    }
+
+    h5{
+        font-size: 8px;
+    }
+  }
+
+
+
 /* Styles in all the pages*/
 
-@media (min-width: 768px) { 
-    h1{
-        font-size: 30px;
-    }
-}
 
 body {
     min-height: 100%;
@@ -92,7 +150,9 @@ footer {
     background:  rgb(199, 220, 233);
     height: 95vh;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: -15px;
    
    
 }
@@ -102,13 +162,17 @@ footer {
     height: 95vh;
     padding-left: 50px;
     padding-right: 50px;
+    margin-left: 15px;
+    margin-right: -15px;
 }
 
 #contact {
     background:  rgb(199, 220, 233);
     height: 95vh;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px;  
+    margin-left: 15px;
+    margin-right: -15px;  
 }
 
 
@@ -197,7 +261,7 @@ container.navbar-brand {
 /*Styling Services Section*/
 
 #servicesimg {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 #servicesimg:hover {
