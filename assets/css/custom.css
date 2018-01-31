@@ -2,6 +2,7 @@
 
 html {
     height: 100%;
+ 
 }
 
 
@@ -75,17 +76,23 @@ footer {
 #home {
     background-color: rgb(199, 220, 233);
     height: 95vh;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #about {
     background: #d3d3d3;
     height: 95vh;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
 #services {
     background:  rgb(199, 220, 233);
     height: 95vh;
+    padding-left: 50px;
+    padding-right: 50px;
    
    
 }
@@ -93,13 +100,15 @@ footer {
 #testimonials {
     background: #d3d3d3;
     height: 95vh;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #contact {
     background:  rgb(199, 220, 233);
     height: 95vh;
     padding-left: 50px;
-    padding-right: 10px;
+    padding-right: 50px;
 }
 
 
