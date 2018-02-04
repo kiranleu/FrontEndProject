@@ -45,7 +45,7 @@ html {
     }
   }
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 568px) {
     p,.btn,input,div,span,h4 {
       font-size: 90%;
     }
