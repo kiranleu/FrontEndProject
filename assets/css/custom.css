@@ -8,75 +8,7 @@ html {
 
 
 /* responsive text queries */
-@media screen and (max-width: 992px) {
-    p,.btn,input,div,span,h4,video {
-      font-size: 95%;
-    }
-    h1 {
-      font-size: 24px;  
-    }
-    h2 {
-      font-size: 22px;  
-    }
-    h3 {
-      font-size: 18px;  
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    p,.btn,input,div,span,h4 {
-      font-size: 90%;
-    }
-    h1 {
-      font-size: 30px;  
-    }
-    h2 {
-      font-size: 28px;  
-    }
-    h3 {
-      font-size: 16px;  
-    }
-    h4 {
-        font-size: 12px;
-    }
-
-    h5{
-        font-size: 8px;
-    }
-  }
-
-  @media screen and (max-width: 568px) {
-    p,.btn,input,div,span,h4 {
-      font-size: 90%;
-    }
-    h1 {
-      font-size: 8px;  
-    }
-    h2 {
-      font-size: 12px;  
-    }
-    h3 {
-      font-size: 10px;  
-    }
-    h4 {
-        font-size: 12px;
-    }
-
-    h5{
-        font-size: 10px;
-    }
-  
-
-  @include media-breakpoint-between(xs,md, xl) { 
-
-  }
-
-  @media print {
-    .container {
-      width: auto;
-    }
-}
-
+ 
 
 /* Styles in all the pages*/
 
