@@ -8,7 +8,30 @@ html {
 
 
 /* responsive text queries */
- 
+.row{
+    float: right;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 8px;
+}
+
+ @media (min-width: 768px) {
+     #container {
+        width:30%;
+        margin :10px 0;
+        font-size: 10px;
+
+     }
+ }
+
+ #video22{
+     width: 50%;
+     height: 50%;
+     margin:10px 0;
+     float: right;
+
+ }
 
 /* Styles in all the pages*/
 
@@ -226,5 +249,5 @@ container.navbar-brand {
 
 #map {
     padding-bottom: -50px;
-    padding-right: 50px;
+    paddin
 }
