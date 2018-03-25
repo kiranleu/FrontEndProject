@@ -13,10 +13,13 @@ body{
 
 
 h1 {
-   
-    font-size: 60px;
-    padding-top: 60px;
-    padding-bottom: -60px;
+   padding-left: 0;
+   padding-right: 0;
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+
+  
 }
 
 h2 {
@@ -57,9 +60,18 @@ video{
     font-size: 80px;
 }
 
+hr {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    border: 0;
+    padding-right:10px;
+    border-top: 1px solid rgba(14, 7, 7, 0.15);
+
+}
+
 /*Footer and its Icons*/
 footer {
-    font-family: 'Lato', 'serif';
+   
     font-size: 14px;
     text-overflow: bottom;
 }
@@ -67,7 +79,7 @@ footer {
          
 /*Sections*/
 #home {
-    background-color: rgb(199, 220, 233);
+    background-color:transparent;
     height: 95vh;
     padding-left: 50px;
     padding-right: 50px;
@@ -121,25 +133,21 @@ container.navbar-brand {
     padding: 7px 14px;
 }
 
-#img {
-    padding-top: 200px;
-    text-align: center;
-    
-}
 
 
 /*styling Home*/
 
-#homeimg {
-    padding-top: 100px;
-}
+
 
 #healthyimg{
+
+    padding-right: 0;
+    padding-left: 0;
     text-align: center;
-    padding-right: 20px;
-    padding-left: 35px;
-    padding-top: 40px;
+    border-radius: 15px;
+
 }
+
 
 /*styling About Me Section*/
 
