@@ -16,7 +16,7 @@ h1 {
    padding-left: 0;
    padding-right: 0;
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
 
   
@@ -45,20 +45,8 @@ h5 {
     font-size: 14px;
 }
 
-video{
- 
-    width: 600px;
-    margin: 10px;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    padding-right: -10px;
-   
-}
 
-#coloredphrase{
-    color: cadetblue;
-    font-size: 80px;
-}
+
 
 hr {
     margin-top: 0px;
@@ -159,8 +147,12 @@ container.navbar-brand {
 }
 
 
-#video3 {
-  padding-top: 100px;
+#video22 {
+        display: inline-block;
+        vertical-align: baseline;
+        max-width: 72%;
+        padding: 0;
+        margin-bottom:70;
 }
 
 .background:before{
